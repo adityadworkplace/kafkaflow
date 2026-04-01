@@ -310,19 +310,17 @@
         <mxCell id="XX6oKnEt21e4feKWmCLV-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Creates Keystore to hold Signed Certificate, and Private Key&lt;br&gt;(Every serivce has its own Keystore)" vertex="1">
           <mxGeometry height="100" width="300" x="270" y="-195" as="geometry" />
         </mxCell>
-        <mxCell id="XX6oKnEt21e4feKWmCLV-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Every Service, Producer, and Consumer has their own Truststore&lt;br&gt;It holds the CA certificate used to verify the certificates presented by other services during TLS communication." vertex="1">
+        <mxCell id="XX6oKnEt21e4feKWmCLV-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Every Service, Producer, and Consumer has access toTruststore&lt;br&gt;It holds the CA certificate used to verify the certificates presented by other services during TLS communication." vertex="1">
           <mxGeometry height="120" width="340" x="570" y="-195" as="geometry" />
         </mxCell>
         <mxCell id="XX6oKnEt21e4feKWmCLV-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Communicates Metadata, Partition leaders, Config updates, Partition Reassignments and Monitors Broker health via heartbeats" vertex="1">
           <mxGeometry height="100" width="240" x="-490" y="-300" as="geometry" />
         </mxCell>
-        <mxCell id="XX6oKnEt21e4feKWmCLV-107" edge="1" parent="1" source="XX6oKnEt21e4feKWmCLV-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+        <mxCell id="XX6oKnEt21e4feKWmCLV-107" edge="1" parent="1" source="zU0Gf3fFvOiCUuyTVryx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="-165" as="sourcePoint" />
             <mxPoint x="-200" y="-165" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="XX6oKnEt21e4feKWmCLV-106" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="mTLS Connection" vertex="1">
-          <mxGeometry height="50" width="150" x="-470" y="-190" as="geometry" />
         </mxCell>
         <mxCell id="XX6oKnEt21e4feKWmCLV-109" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -731,6 +729,18 @@
         </mxCell>
         <mxCell id="XX6oKnEt21e4feKWmCLV-251" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Poll Loop&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="-570" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="zU0Gf3fFvOiCUuyTVryx-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="mTLS Connection" vertex="1">
+          <mxGeometry height="40" width="140" x="-460" y="-185" as="geometry" />
+        </mxCell>
+        <mxCell id="zU0Gf3fFvOiCUuyTVryx-6" connectable="0" parent="1" style="group;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="270" x="-1010" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="zU0Gf3fFvOiCUuyTVryx-2" parent="zU0Gf3fFvOiCUuyTVryx-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=12;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Service to service - mTLS Connection&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Service to Producer/Consumer - TLS Connection&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="260" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zU0Gf3fFvOiCUuyTVryx-5" parent="zU0Gf3fFvOiCUuyTVryx-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=12;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Note:&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
