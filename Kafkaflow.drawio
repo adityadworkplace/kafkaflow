@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0">
   <diagram name="Page-1" id="ME_oMTN3mxtvgNk0B7cp">
-    <mxGraphModel dx="2614" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2812" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zeI2MnS72Nvv4kqkgQq7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="170" width="360" x="330" y="1920" as="geometry" />
+        </mxCell>
         <mxCell id="XX6oKnEt21e4feKWmCLV-249" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="280" width="1380" x="-570" y="2200" as="geometry" />
+          <mxGeometry height="410" width="1380" x="-570" y="2200" as="geometry" />
         </mxCell>
         <mxCell id="XX6oKnEt21e4feKWmCLV-174" edge="1" parent="1" source="XX6oKnEt21e4feKWmCLV-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
@@ -741,6 +744,9 @@
         </mxCell>
         <mxCell id="zU0Gf3fFvOiCUuyTVryx-5" parent="zU0Gf3fFvOiCUuyTVryx-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=12;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Note:&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI2MnS72Nvv4kqkgQq7-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(Internal,&lt;br&gt;Handled by kafka)" vertex="1">
+          <mxGeometry height="50" width="60" x="620" y="1929" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
