@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0">
   <diagram name="Page-1" id="ME_oMTN3mxtvgNk0B7cp">
-    <mxGraphModel dx="3280" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3349" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -790,7 +790,7 @@
             <mxPoint x="-60" y="2850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RArGAfSf2jmLPtG2mvna-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Route to retry topic + inject x-retry-count, x-fail-reason headers" vertex="1">
+        <mxCell id="RArGAfSf2jmLPtG2mvna-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Route to retry topic + inject x-retry-delay, x-fail-reason headers" vertex="1">
           <mxGeometry height="40" width="523.5" x="26.5" y="2820" as="geometry" />
         </mxCell>
         <mxCell id="RArGAfSf2jmLPtG2mvna-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Manual Commit (c.commit)&lt;br&gt;Continue (skip to next message)" vertex="1">
