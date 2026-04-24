@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0">
   <diagram name="Page-1" id="ME_oMTN3mxtvgNk0B7cp">
-    <mxGraphModel dx="3318" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3553" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -586,7 +586,7 @@
         <mxCell id="XX6oKnEt21e4feKWmCLV-251" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Poll Loop&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="-570" y="1910" as="geometry" />
         </mxCell>
-        <mxCell id="zU0Gf3fFvOiCUuyTVryx-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="mTLS Connection" vertex="1">
+        <mxCell id="zU0Gf3fFvOiCUuyTVryx-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Internal Auth" vertex="1">
           <mxGeometry height="40" width="140" x="-457.5" y="-65" as="geometry" />
         </mxCell>
         <mxCell id="zU0Gf3fFvOiCUuyTVryx-6" connectable="0" parent="1" style="group;fillColor=none;" value="" vertex="1">
